@@ -1,0 +1,242 @@
+body, ul, li, a{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: rgb(255, 130, 245);
+}
+header{
+    background-color: rgb(255, 124, 185);
+    border-bottom: 1px solid rgb(255, 80, 167);
+    padding: 20px 0;
+}
+nav{
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li{
+    margin-right: 20px;
+}
+nav ul li:last-child{
+    margin-right: 0;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(212, 0, 255);
+    font-weight: bold;
+}
+
+section{
+    padding: 40px;
+}
+
+.escola{
+    background-image: url("../imagens/img_curso.jpg");
+    background-size: cover;
+    background-position: center;
+    color:rgb(255, 29, 29);
+    text-align: center;
+}
+
+.escola-content{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.escola h1{
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: rgb(210, 61, 255);
+    text-shadow: 1px 1px 1px rgb(10, 10, 10);
+}
+
+.escola p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: rgb(248, 145, 240);
+    text-shadow: 1px 1px 1px rgb(10, 10, 10);
+}
+
+.btn-aprenda{
+    display: inline-block;
+    background-color: rgb(255, 0, 106);
+    color: rgb(255, 169, 216);
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.btn-aprenda:hover{
+    background-color: rgb(133, 0, 88);
+}
+
+.cursos{
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+.cursos h2{
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.curso-card{
+    background-color: #FFF;
+    border: 1px solid rgb(255, 0, 221);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+    transition: transorm 0.3s;
+}
+
+.curso-card:hover{
+    transform: translateY(-5px);
+}
+
+.curso-card img{
+    max-width: 30%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.curso-card h3, p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.about{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.contato{
+    background-color: rgb(151, 0, 118);
+    color: #FFF;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.contato h2{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.contato p, span{
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+footer{
+    background-color: #333;
+    color: #FFF;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.depoimentos{
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.depoimentos h2{
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.depoimentos-marcia{
+    background-color: #FFF;
+    border: 1px solid rgb(255, 0, 221);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+    transition: transorm 0.3s;
+}
+
+.depoimentos-marcia:hover{
+    transform: translateY(-5px);
+}
+
+.depoimentos-marcia img{
+    max-width: 15%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.depoimentos-marcia h3, p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.depoimentos-daniel{
+    background-color: #FFF;
+    border: 1px solid rgb(255, 0, 221);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+    transition: transorm 0.3s;
+}
+
+.depoimentos-daniel:hover{
+    transform: translateY(-5px);
+}
+
+.depoimentos-daniel img{
+    max-width: 15%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.depoimentos-daniel h3, p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.depoimentos-rafael{
+    background-color: #FFF;
+    border: 1px solid rgb(255, 0, 221);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+    transition: transorm 0.3s;
+}
+
+.depoimentos-rafael:hover{
+    transform: translateY(-5px);
+}
+
+.depoimentos-rafael img{
+    max-width: 15%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.depoimentos-rafael h3, p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}

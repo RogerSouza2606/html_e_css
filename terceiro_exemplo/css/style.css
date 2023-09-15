@@ -60,24 +60,27 @@ section{
 }
 
 .escola-content{
-    max-width: 60px;
+    max-width: 960px;
     margin: 0 auto;
 }
 
 .escola h1{
     font-size: 36px;
     margin-bottom: 20px;
+    color:rgb(240, 50, 161);
     text-shadow: 1px 1px 1px #FFF;
 }
 
 .escola p{
     font-size: 18px;
     margin-bottom: 30px;
+    color:rgb(250, 135, 225);
+    text-shadow: 1px 1px 1px #ffffff;
 }
 
 .btn-aprenda{
     display: inline-block;
-    background-color: #333;
+    background-color: rgb(255, 0, 85);
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
@@ -90,3 +93,65 @@ section{
     background-color: #555;
 }
 
+.cursos{
+    background-image: url("../imagens/cursos.jpg");
+    background-size: cover;
+    background-position: center;
+    color:rgb(238, 116, 201);
+    margin: 0 auto;
+    text-align: center;
+}
+
+.curso h2{
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.cursos-card{
+    background-color: #ffffff;
+    border: 1px #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+    transition: transorm 0.3s;
+}
+
+.cursos-card:hover{
+    transform: translateY(-5px);
+}
+
+.cursos-card img{
+    max-width: 50%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.cursos-card h3{
+    font-size: 16 px;
+    margin-bottom: 20px;
+}
+
+.contato{
+    background-color: #333;
+    color: #FFF;
+    text-align: center;
+    padding: 60px 0px;
+}
+
+.contato h2{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.contato p{
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0px       ;
+}
